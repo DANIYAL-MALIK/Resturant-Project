@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.container h1{
+    color: blanchedalmond;
+    font-size: 40px;
+    border-bottom: 5px solid chartreuse;
+    margin-bottom: 40px;
+    padding: 13px;
+}
+.box{
+    width: 100%;
+    padding: 0 12px;
+    border-bottom: 5px solid chartreuse;
+}
+.box input{
+    width: 75%;
+    outline: none;
+    margin:  13px 0;
+    padding: 5px 10px;
+    color:whitesmoke;  
+    font-size: 30px;
+    background: none;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.fa-lock {
+    color:cornsilk;
+  }
+  .fa-user{
+      color: cornsilk;
+  }
+  .btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding:6px;
+    border-radius: 20px;
+}
